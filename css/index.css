@@ -182,7 +182,7 @@ header nav {
   }
 }
 header a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: purple;
   text-decoration: none;
   padding: 3rem;
@@ -193,6 +193,93 @@ header a {
     text-align: center;
     padding: 1rem;
   }
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+@media (max-width:500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header h2 {
+  display: flex;
+}
+@media (max-width:500px) {
+  header h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+header h2 a {
+  background-color: orange;
+  color: white;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+@media (max-width:500px) {
+  header h2 a {
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+header nav {
+  margin: auto;
+}
+@media (max-width:500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header a {
+  font-size: 1.8rem;
+  color: purple;
+  text-decoration: none;
+  padding: 3rem;
+}
+@media (max-width:500px) {
+  header a {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+.team {
+  border-top: 2px dashed #1b1b1b;
+}
+.team h1 {
+  font-size: 3rem;
+  color: orange;
+  text-align: center;
+  padding: 5rem;
+}
+.team h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.team h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.team p {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.team div {
+  width: 30%;
+}
+.team img {
+  width: 100%;
 }
 .top-container .img1 {
   border-top: 3px dashed #1b1b1b;

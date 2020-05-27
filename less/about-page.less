@@ -1,1 +1,77 @@
-
+header{
+    display:flex;
+    justify-content:flex-start;
+    @media @mobile{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }//end of header media
+    h2{
+        display:flex;
+        @media @mobile{
+            display:flex;
+            justify-content: center;
+        }//end of h2 media
+        a{
+            background-color: orange;
+            color:white;
+            text-decoration:underline;
+            font-size:4rem;
+            @media @mobile{
+                background-color: white;
+                color:orange;
+                text-decoration: none;
+                text-align: center;
+            }//end of a links media
+        }//end of H2-a links    
+    }//end of H2
+    nav{
+        margin: auto;
+        @media @mobile{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }//end of nav media
+    }//end of nav
+    a{
+        font-size: 1.8rem;
+        color:purple;
+        text-decoration: none;
+        padding: 3rem;
+        @media @mobile{
+            font-size: 1.5rem;
+            text-align: center;
+            padding:1rem;
+        }//end of nav a links media
+    }//end of a links
+}//end of header
+.team{
+    border-top: 2px dashed @darkgray;
+    h1{
+        font-size: 3rem;
+        color: orange;
+        text-align: center;
+        padding:5rem;
+    }
+    h2{
+        font-size: 1.4rem;
+        text-align: center;
+        padding:.5rem;
+    }
+    h3{
+        font-size:1.2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    div{
+        width:30%;
+    }
+    img{
+        width:100%;
+    }
+}
