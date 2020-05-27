@@ -167,6 +167,7 @@ header a {
   padding: 2rem;
 }
 .top-container h3 {
+  line-height: 1.5;
   font-size: 1.6rem;
   text-align: center;
   text-transform: lowercase;
@@ -175,9 +176,34 @@ header a {
 .bottom-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
-.bottom-container img {
-  width: 25%;
+.bottom-container p {
+  line-height: 1.5;
+  text-align: center;
+}
+.bottom-container .drill {
+  width: 30%;
+}
+.bottom-container .drill img {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 17.5rem;
+}
+.bottom-container .cooking {
+  width: 30%;
+}
+.bottom-container .cooking img {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 17.5rem;
+}
+.bottom-container .clean {
+  width: 30%;
+}
+.bottom-container .clean img {
+  margin-bottom: 1rem;
+  width: 100%;
 }
 @font-face {
   font-family: 'Roboto Slab';
