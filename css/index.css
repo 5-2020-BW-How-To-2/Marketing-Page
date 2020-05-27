@@ -263,16 +263,19 @@ header a {
   padding: 5rem;
 }
 .team h2 {
+  color: #1b1b1b;
   font-size: 1.8rem;
   text-align: center;
   padding: 0.5rem;
 }
 .team h3 {
+  color: orange;
   font-size: 1.4rem;
   text-align: center;
   padding: 0.5rem;
 }
 .team p {
+  color: #646464;
   font-size: 1.2rem;
   text-align: center;
   padding: 0.5rem;
@@ -288,11 +291,26 @@ header a {
   justify-content: center;
   margin-bottom: 2rem;
 }
+@media (max-width:500px) {
+  .team .pl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .team .pl .patrick {
   width: 50%;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+@media (max-width:500px) {
+  .team .pl .patrick {
+    width: 100%;
+  }
+}
+.team .pl .patrick img {
+  width: 70%;
 }
 .team .front {
   width: 100%;
@@ -300,62 +318,138 @@ header a {
   flex-direction: row;
   justify-content: space-evenly;
 }
+@media (max-width:500px) {
+  .team .front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .team .front .bobby {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:500px) {
+  .team .front .bobby {
+    width: 100%;
+    justify-content: center;
+  }
+}
 .team .front .bobby img {
   width: 100%;
+}
+@media (max-width:500px) {
+  .team .front .bobby img {
+    width: 75%;
+  }
 }
 .team .front .kate {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:500px) {
+  .team .front .kate {
+    width: 100%;
+  }
+}
 .team .front .kate img {
   width: 100%;
+}
+@media (max-width:500px) {
+  .team .front .kate img {
+    width: 75%;
+  }
 }
 .team .front .liam {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:500px) {
+  .team .front .liam {
+    width: 100%;
+  }
+}
 .team .front .liam img {
   width: 100%;
+}
+@media (max-width:500px) {
+  .team .front .liam img {
+    width: 75%;
+  }
 }
 .team .back {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+@media (max-width:500px) {
+  .team .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .team .back .steven {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:500px) {
+  .team .back .steven {
+    width: 100%;
+  }
+}
 .team .back .steven img {
   width: 100%;
   margin: auto;
+}
+@media (max-width:500px) {
+  .team .back .steven img {
+    width: 75%;
+  }
 }
 .team .back .chris {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:500px) {
+  .team .back .chris {
+    width: 100%;
+  }
+}
 .team .back .chris img {
   width: 90%;
   margin: auto;
+}
+@media (max-width:500px) {
+  .team .back .chris img {
+    width: 75%;
+  }
 }
 .team .back .christian {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
+@media (max-width:500px) {
+  .team .back .christian {
+    width: 100%;
+  }
+}
 .team .back .christian img {
   width: 100%;
   margin: auto;
+}
+@media (max-width:500px) {
+  .team .back .christian img {
+    width: 75%;
+  }
 }
 .top-container .img1 {
   border-top: 3px dashed #1b1b1b;
