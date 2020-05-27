@@ -143,6 +143,9 @@ header h2 {
   display: flex;
 }
 header h2 a {
+  background-color: orange;
+  color: white;
+  text-decoration: underline;
   font-size: 4rem;
 }
 header nav {
@@ -152,6 +155,29 @@ header a {
   font-size: 2rem;
   text-decoration: none;
   padding: 3rem;
+}
+.top-container .img1 {
+  border-top: 3px dashed #1b1b1b;
+  width: 100%;
+}
+.top-container h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  padding: 2rem;
+}
+.top-container h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  text-transform: lowercase;
+  margin-bottom: 4rem;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+}
+.bottom-container img {
+  width: 25%;
 }
 @font-face {
   font-family: 'Roboto Slab';
