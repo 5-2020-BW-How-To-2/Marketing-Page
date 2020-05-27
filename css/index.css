@@ -183,6 +183,7 @@ header nav {
 }
 header a {
   font-size: 2rem;
+  color: purple;
   text-decoration: none;
   padding: 3rem;
 }
@@ -242,6 +243,7 @@ header a {
 }
 .top-container .btn button a {
   background-color: orange;
+  color: purple;
   font-size: 1.2rem;
   text-decoration: none;
 }
