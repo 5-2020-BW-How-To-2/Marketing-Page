@@ -136,18 +136,17 @@ table {
   background-color: black;
 }
 header {
-  background-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 header h2 {
   display: flex;
 }
 header h2 a {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 header nav {
-  margin-top: auto;
+  margin: auto;
 }
 header a {
   font-size: 2rem;
