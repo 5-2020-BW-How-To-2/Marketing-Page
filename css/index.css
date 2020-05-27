@@ -137,9 +137,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  background-color: black;
-}
 header {
   display: flex;
   justify-content: flex-start;
