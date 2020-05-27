@@ -96,6 +96,11 @@ html {
   max-width: 2000px;
   margin: auto;
 }
+@media (max-width:500px) {
+  html {
+    width: 100%;
+  }
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -201,12 +206,22 @@ header a {
   font-size: 6rem;
   padding: 2rem;
 }
+@media (max-width:500px) {
+  .top-container h1 {
+    font-size: 4rem;
+  }
+}
 .top-container p {
   line-height: 1.5;
   font-size: 1.6rem;
   text-align: center;
   text-transform: lowercase;
   margin-bottom: 4rem;
+}
+@media (max-width:500px) {
+  .top-container p {
+    font-size: 1.4rem;
+  }
 }
 .top-container .btn {
   display: flex;
@@ -219,16 +234,40 @@ header a {
   padding: 5px;
   margin-bottom: 4rem;
 }
+@media (max-width:500px) {
+  .top-container .btn button {
+    border-radius: 2px;
+    width: 40%;
+    padding: 3%;
+    background-color: white;
+    box-shadow: 3px 3px 3px #1b1b1b;
+  }
+}
 .top-container .btn button a {
   background-color: orange;
   font-size: 1.2rem;
   text-decoration: none;
+}
+@media (max-width:500px) {
+  .top-container .btn button a {
+    font-size: 1.4rem;
+    background-color: white;
+    color: orange;
+    text-decoration: underline;
+  }
 }
 .bottom-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 1.5rem;
+}
+@media (max-width:500px) {
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .bottom-container p {
   line-height: 1.5;
@@ -242,6 +281,17 @@ header a {
   width: 100%;
   height: 14rem;
 }
+@media (max-width:500px) {
+  .bottom-container .drill img {
+    width: 75%;
+    margin: 1rem 3.5rem;
+  }
+}
+@media (max-width:500px) {
+  .bottom-container .drill {
+    width: 100%;
+  }
+}
 .bottom-container .cooking {
   width: 31%;
 }
@@ -250,6 +300,17 @@ header a {
   width: 100%;
   height: 14rem;
 }
+@media (max-width:500px) {
+  .bottom-container .cooking img {
+    width: 75%;
+    margin: 1rem 3.5rem;
+  }
+}
+@media (max-width:500px) {
+  .bottom-container .cooking {
+    width: 100%;
+  }
+}
 .bottom-container .clean {
   width: 31%;
 }
@@ -257,6 +318,17 @@ header a {
   margin-bottom: 1.5rem;
   width: 100%;
   height: 14rem;
+}
+@media (max-width:500px) {
+  .bottom-container .clean img {
+    width: 75%;
+    margin: 1rem 3.5rem;
+  }
+}
+@media (max-width:500px) {
+  .bottom-container .clean {
+    width: 100%;
+  }
 }
 footer {
   display: flex;
