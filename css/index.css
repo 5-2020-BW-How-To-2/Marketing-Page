@@ -253,12 +253,8 @@ header a {
 }
 .team {
   border-top: 2px dashed #1b1b1b;
-}
-.team .row {
-  width: 60%;
   display: flex;
-  flex-flow: row wrap;
-  margin: auto;
+  flex-direction: column;
 }
 .team h1 {
   font-size: 3rem;
@@ -267,25 +263,99 @@ header a {
   padding: 5rem;
 }
 .team h2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
   padding: 0.5rem;
 }
 .team h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
-  margin-bottom: 1rem;
+  padding: 0.5rem;
 }
 .team p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 1rem;
-}
-.team div {
-  padding: 2rem;
+  padding: 0.5rem;
+  margin: auto;
 }
 .team img {
+  border-radius: 0.2rem;
+  margin: auto;
+}
+.team .pl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.team .pl .patrick {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.team .front {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.team .front .bobby {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.team .front .bobby img {
+  width: 100%;
+}
+.team .front .kate {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.team .front .kate img {
+  width: 100%;
+}
+.team .front .liam {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.team .front .liam img {
+  width: 100%;
+}
+.team .back {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.team .back .steven {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.team .back .steven img {
+  width: 100%;
+  margin: auto;
+}
+.team .back .chris {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.team .back .chris img {
+  width: 90%;
+  margin: auto;
+}
+.team .back .christian {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.team .back .christian img {
+  width: 100%;
+  margin: auto;
 }
 .top-container .img1 {
   border-top: 3px dashed #1b1b1b;

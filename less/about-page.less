@@ -47,37 +47,107 @@ header{
 }//end of header
 .team{
     border-top: 2px dashed @darkgray;
-    .row{
-        width:60%;
-        display:flex;
-        flex-flow:row wrap;
-        margin:auto;
-    }
+    display:flex;
+    flex-direction: column;
     h1{
         font-size: 3rem;
         color: orange;
         text-align: center;
         padding:5rem;
-    }
+    }//end of h1
     h2{
-        font-size: 1.4rem;
+        font-size:1.8rem;
         text-align: center;
         padding:.5rem;
-    }
+    }//end of h2
     h3{
-        font-size:1.2rem;
+        font-size:1.4rem;
         text-align: center;
-        margin-bottom: 1rem;
-    }
+        padding:.5rem;
+    }//end of h3
     p{
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align: center;
-        margin-bottom: 1rem;
-    }
-    div{
-        padding:2rem;
-    }
+        padding:.5rem;
+        margin:auto;
+    }//end of p
     img{
-        width:100%;
+        border-radius: .2rem;
+        margin:auto;
     }
-}
+    .pl{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 2rem;;
+        .patrick{
+            width:50%;
+            display:flex;
+            flex-direction: column;
+            text-align: center;
+        }//end of .patrick
+    }//end of pl
+    .front{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .bobby{
+            width:30%;
+            display:flex;
+            flex-direction: column;
+            img{
+                width:100%;
+            }
+        }
+        .kate{
+            width:30%;
+            display:flex;
+            flex-direction:column;
+            img{
+                width:100%;
+            }
+        }
+        .liam{
+            width:30%;
+            display:flex;
+            flex-direction:column;
+            img{
+                width:100%;
+            }
+        }
+    }//end of .front
+    .back{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        .steven{
+            width:30%;
+            display:flex;
+            flex-direction: column;
+            img{
+                width:100%;
+                margin:auto;
+            }
+        }
+        .chris{
+            width:30%;
+            display: flex;
+            flex-direction:column;
+            img{
+                width:90%;
+                margin:auto;
+            }
+        }
+        .christian{
+            width:30%;
+            display:flex;
+            flex-direction:column;
+            img{
+                width:100%;
+                margin: auto;
+            }
+        }
+    }
+}//end of .team
