@@ -254,6 +254,12 @@ header a {
 .team {
   border-top: 2px dashed #1b1b1b;
 }
+.team .row {
+  width: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+}
 .team h1 {
   font-size: 3rem;
   color: orange;
@@ -276,7 +282,7 @@ header a {
   margin-bottom: 1rem;
 }
 .team div {
-  width: 30%;
+  padding: 2rem;
 }
 .team img {
   width: 100%;
