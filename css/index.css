@@ -139,8 +139,21 @@ header {
   display: flex;
   justify-content: flex-start;
 }
+@media (max-width:500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 header h2 {
   display: flex;
+}
+@media (max-width:500px) {
+  header h2 {
+    display: flex;
+    justify-content: center;
+  }
 }
 header h2 a {
   background-color: orange;
@@ -148,13 +161,35 @@ header h2 a {
   text-decoration: underline;
   font-size: 4rem;
 }
+@media (max-width:500px) {
+  header h2 a {
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+  }
+}
 header nav {
   margin: auto;
+}
+@media (max-width:500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 header a {
   font-size: 2rem;
   text-decoration: none;
   padding: 3rem;
+}
+@media (max-width:500px) {
+  header a {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
 }
 .top-container .img1 {
   border-top: 3px dashed #1b1b1b;
@@ -200,27 +235,28 @@ header a {
   text-align: center;
 }
 .bottom-container .drill {
-  width: 30%;
+  width: 31%;
 }
 .bottom-container .drill img {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   width: 100%;
-  height: 17.5rem;
+  height: 14rem;
 }
 .bottom-container .cooking {
-  width: 30%;
+  width: 31%;
 }
 .bottom-container .cooking img {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   width: 100%;
-  height: 17.5rem;
+  height: 14rem;
 }
 .bottom-container .clean {
-  width: 30%;
+  width: 31%;
 }
 .bottom-container .clean img {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   width: 100%;
+  height: 14rem;
 }
 footer {
   display: flex;
