@@ -262,6 +262,12 @@ header a {
   text-align: center;
   padding: 5rem;
 }
+@media (max-width:500px) {
+  .team h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
 .team h2 {
   color: #1b1b1b;
   font-size: 1.8rem;
@@ -584,6 +590,63 @@ header a {
 @media (max-width:500px) {
   .bottom-container .clean {
     width: 100%;
+  }
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+@media (max-width:500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header h2 {
+  display: flex;
+}
+@media (max-width:500px) {
+  header h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+header h2 a {
+  background-color: orange;
+  color: white;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+@media (max-width:500px) {
+  header h2 a {
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+header nav {
+  margin: auto;
+}
+@media (max-width:500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header a {
+  font-size: 1.8rem;
+  color: purple;
+  text-decoration: none;
+  padding: 3rem;
+}
+@media (max-width:500px) {
+  header a {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
   }
 }
 footer {
