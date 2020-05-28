@@ -3,8 +3,7 @@
         width:100%;
     }//end of img1
     h1{
-        display:flex;
-        justify-content: center;
+        .center;
         font-size:6rem;
         padding:2rem;
         @media @mobile{
@@ -14,7 +13,7 @@
     p{
         line-height:1.5;
         font-size: 1.6rem;
-        text-align: center;
+        .center-text;
         text-transform: lowercase;
         margin-bottom:4rem;
         @media @mobile{
@@ -22,8 +21,7 @@
         }//end of p media
     }//end of p
     .btn{
-        display:flex;
-        justify-content: center;
+        .center;
         button{
             background-color: orange;
             border-radius:5px;
@@ -45,7 +43,7 @@
                 @media @mobile{
                     font-size:1.4rem;
                     background-color:white;
-                    color:orange;
+                    .orange;
                     text-decoration: underline;
                 }
             }//end of button a links
@@ -53,24 +51,23 @@
     }//end of btn
 }//end of .top-container
 .bottom-container{
-    display:flex;
+    .flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom:1.5rem;
     @media @mobile{
-        display:flex;
+        .center;
         flex-direction: column;
-        justify-content: center;
     }
     p{
         line-height: 1.5;
-        text-align: center;
+        .center-text;
     }//end of p
     .drill{
         img{
             margin-bottom: 1.5rem;
-            width:100%;
-            height:14rem;
+            .width;
+            height:18rem;
             @media @mobile{
                 width:75%;
                 margin:1rem 3.5rem;
@@ -79,14 +76,14 @@
         }//end of drill-img
         width:31%;
         @media @mobile{
-            width:100%;
+            .width;
         }//end of drill media
     }//end of drill
     .cooking{
         img{
             margin-bottom:1.5rem;
-            width: 100%;
-            height:14rem;
+            .width;
+            height:18rem;
             @media @mobile{
                 width:75%;
                 margin: 1rem 3.5rem;
@@ -94,14 +91,14 @@
         }//end of cooking-img
         width:31%;
         @media @mobile{
-            width:100%;
+            .width;
         }
     }//end of cooking
     .clean{
         img{
             margin-bottom:1.5rem;
-            width:100%;
-            height:14rem;
+            .width;
+            height:18rem;
             @media @mobile{
                 width:75%;
                 margin:1rem 3.5rem;
@@ -109,7 +106,7 @@
         }//end of .clean-img
         width:31%;
         @media @mobile{
-            width:100%;
+            .width;
         }//end of .clean mobile
     }//end of .clean
 }//end of .bottom-container

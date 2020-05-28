@@ -1,12 +1,12 @@
 header{
-    display:flex;
+    .flex;
     justify-content:flex-start;
     @media @mobile{
         .center;
         flex-direction: column;
     }//end of header media
     h2{
-        display:flex;
+        .flex;
         @media @mobile{
             .center;
         }//end of h2 media
@@ -17,9 +17,9 @@ header{
             font-size:4rem;
             @media @mobile{
                 background-color: white;
-                color:orange;
+                .orange;
                 text-decoration: none;
-                text-align: center;
+                .center-text;
             }//end of a links media
         }//end of H2-a links    
     }//end of H2
@@ -37,18 +37,18 @@ header{
         padding: 3rem;
         @media @mobile{
             font-size: 1.5rem;
-            text-align: center;
+            .center-text;
             padding:1rem;
         }//end of nav a links media
     }//end of a links
 }//end of header
 .contact{
-    display:flex;
+        .flex;
         flex-direction:row;
         margin-bottom:4rem;
         @media @mobile{
             .center;
-            width:100%;
+            .width;
             flex-direction: column;
         }//end of .contact media
         .banner{
@@ -56,23 +56,23 @@ header{
             margin: auto;
             line-height:5.8rem;
             @media @mobile{
-                text-align: center;
+                .center-text;
             }
             span{
-                color:orange;
+                .orange;
             }//end of span
         }//end of .banner
 .container{
-    width:100%;
+    .width;
     border-radius:.2rem;
     padding:20px;
-    display:flex;
+    .flex;
     margin-top: 4rem;
     @media @mobile{
         width:80%;
     }//end of .container
     input[type=text], select, textarea{
-        width: 100%;
+        .width;
         padding: 1.2rem;
         border:.05rem solid orange;
         border-radius:.4rem;

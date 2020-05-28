@@ -1,6 +1,18 @@
+.flex {
+  display: flex;
+}
 .center {
   display: flex;
   justify-content: center;
+}
+.width {
+  width: 100%;
+}
+.orange {
+  color: orange;
+}
+.center-text {
+  text-align: center;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -331,8 +343,8 @@ header a {
 @media (max-width:500px) {
   .team .front {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 .team .front .bobby {
@@ -343,6 +355,7 @@ header a {
 @media (max-width:500px) {
   .team .front .bobby {
     width: 100%;
+    display: flex;
     justify-content: center;
   }
 }
@@ -400,8 +413,8 @@ header a {
 @media (max-width:500px) {
   .team .back {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 .team .back .steven {
@@ -530,8 +543,8 @@ header a {
 @media (max-width:500px) {
   .bottom-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 .bottom-container p {
@@ -544,7 +557,7 @@ header a {
 .bottom-container .drill img {
   margin-bottom: 1.5rem;
   width: 100%;
-  height: 14rem;
+  height: 18rem;
 }
 @media (max-width:500px) {
   .bottom-container .drill img {
@@ -563,7 +576,7 @@ header a {
 .bottom-container .cooking img {
   margin-bottom: 1.5rem;
   width: 100%;
-  height: 14rem;
+  height: 18rem;
 }
 @media (max-width:500px) {
   .bottom-container .cooking img {
@@ -582,7 +595,7 @@ header a {
 .bottom-container .clean img {
   margin-bottom: 1.5rem;
   width: 100%;
-  height: 14rem;
+  height: 18rem;
 }
 @media (max-width:500px) {
   .bottom-container .clean img {

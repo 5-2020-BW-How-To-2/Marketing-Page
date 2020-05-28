@@ -1,12 +1,12 @@
 header{
-    display:flex;
+    .flex;
     justify-content:flex-start;
     @media @mobile{
         .center;
         flex-direction: column;
     }//end of header media
     h2{
-        display:flex;
+        .flex;
         @media @mobile{
             .center;
         }//end of h2 media
@@ -17,9 +17,9 @@ header{
             font-size:4rem;
             @media @mobile{
                 background-color: white;
-                color:orange;
+                .orange;
                 text-decoration: none;
-                text-align: center;
+                .center-text;
             }//end of a links media
         }//end of H2-a links    
     }//end of H2
@@ -37,40 +37,40 @@ header{
         padding: 3rem;
         @media @mobile{
             font-size: 1.5rem;
-            text-align: center;
+            .center-text;
             padding:1rem;
         }//end of nav a links media
     }//end of a links
 }//end of header
 .team{
-    display:flex;
+    .flex;
     flex-direction: column;
     h1{
         font-size: 3rem;
-        color: orange;
-        text-align: center;
+        .orange;
+        .center-text;
         padding:5rem;
         @media @mobile{
-            text-align:center;
+            .center-text;
             font-size: 2rem;
         }
     }//end of h1
     h2{
         color:@darkgray;
         font-size:1.8rem;
-        text-align: center;
+        .center-text;
         padding:.5rem;
     }//end of h2
     h3{
         color:orange;
         font-size:1.4rem;
-        text-align: center;
+        .center-text;
         padding:.5rem;
     }//end of h3
     p{
         color:rgb(100, 100, 100);
         font-size: 1.2rem;
-        text-align: center;
+        .center-text;
         padding:.5rem;
         margin:auto;
     }//end of p
@@ -88,9 +88,9 @@ header{
         }//end of .pl mobile
         .patrick{
             width:50%;
-            display:flex;
+            .flex;
             flex-direction: column;
-            text-align: center;
+            .center-text;
             @media @mobile{
                 .width;
             }//end of .patrick
@@ -101,17 +101,16 @@ header{
     }//end of pl
     .front{
         .width;
-        display:flex;
+        .flex;
         flex-direction: row;
         justify-content: space-evenly;
         @media @mobile{
-            display:flex;
+            .center;
             flex-direction:column;
-            justify-content: center;
         }//end of mobile
         .bobby{
             width:30%;
-            display:flex;
+            .flex;
             flex-direction: column;
             @media @mobile{
                 .width;
@@ -126,7 +125,7 @@ header{
         }//end of .bobby
         .kate{
             width:30%;
-            display:flex;
+            .flex;
             flex-direction:column;
             @media @mobile{
                 .width;
@@ -140,7 +139,7 @@ header{
         }//end of .kate
         .liam{
             width:30%;
-            display:flex;
+            .flex;
             flex-direction:column;
             @media @mobile{
                 .width;
@@ -155,18 +154,17 @@ header{
     }//end of .front
     .back{
         .width;
-        display:flex;
+        .flex;
         flex-direction:row;
         justify-content: space-evenly;
         margin-bottom: 2rem;
         @media @mobile{
-            display:flex;
+            .center;
             flex-direction: column;
-            justify-content: center;
         }//end of mobile
         .steven{
             width:30%;
-            display:flex;
+            .flex;
             flex-direction: column;
             @media @mobile{
                 .width;
@@ -181,7 +179,7 @@ header{
         }//end .steven
         .chris{
             width:30%;
-            display: flex;
+            .flex;
             flex-direction:column;
             @media @mobile{
                 .width;
@@ -196,7 +194,7 @@ header{
         }//end of .chris
         .christian{
             width:30%;
-            display:flex;
+            .flex;
             flex-direction:column;
             @media @mobile{
                 .width;
