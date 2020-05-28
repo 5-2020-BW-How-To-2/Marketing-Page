@@ -46,12 +46,20 @@ header{
     }//end of a links
 }//end of header
 .contact{
-        display:flex;
+    display:flex;
         flex-direction:row;
+        margin-bottom:4rem;
+        @media @mobile{
+            display:flex;
+            flex-direction: column;
+        }
         .banner{
             font-size: 5rem;
             margin: auto;
             line-height:5.8rem;
+            @media @mobile{
+                text-align: center;
+            }
             span{
                 color:orange;
             }

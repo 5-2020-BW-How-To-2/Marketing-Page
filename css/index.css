@@ -140,6 +140,7 @@ table {
 header {
   display: flex;
   justify-content: flex-start;
+  border-bottom: 3px dashed #1b1b1b;
 }
 @media (max-width:500px) {
   header {
@@ -252,7 +253,6 @@ header a {
   }
 }
 .team {
-  border-top: 2px dashed #1b1b1b;
   display: flex;
   flex-direction: column;
 }
@@ -458,7 +458,6 @@ header a {
   }
 }
 .top-container .img1 {
-  border-top: 3px dashed #1b1b1b;
   width: 100%;
 }
 .top-container h1 {
@@ -592,17 +591,6 @@ header a {
     width: 100%;
   }
 }
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 4rem;
-  font-size: 1.2rem;
-  background-color: orange;
-  border-top: 2px dashed #1b1b1b;
-}
-footer h6 {
-  background-color: orange;
-}
 header {
   display: flex;
   justify-content: flex-start;
@@ -663,11 +651,23 @@ header a {
 .contact {
   display: flex;
   flex-direction: row;
+  margin-bottom: 4rem;
+}
+@media (max-width:500px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .contact .banner {
   font-size: 5rem;
   margin: auto;
   line-height: 5.8rem;
+}
+@media (max-width:500px) {
+  .contact .banner {
+    text-align: center;
+  }
 }
 .contact .banner span {
   color: orange;
@@ -700,6 +700,17 @@ header a {
 .contact .container .col-75 {
   width: 175%;
   margin-top: 6px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+  background-color: orange;
+  border-top: 3px dashed #1b1b1b;
+}
+footer h6 {
+  background-color: orange;
 }
 @font-face {
   font-family: 'Roboto Slab';
