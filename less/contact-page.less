@@ -47,16 +47,49 @@ header{
 }//end of header
 .contact{
     display:flex;
-        flex-direction:row;
-        margin-bottom:4rem;
+    flex-direction: row;
+    margin-top:6rem;
+    margin-bottom:6rem;
         @media @mobile{
             display:flex;
             flex-direction: column;
+        }//end of .contact mobile
+        .contact-form{
+            text-align: center;
+            box-sizing: border-box;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            width:80%;
+            .text{
+                width:100%;
+                margin:.5rem;
+                input{
+                    width:50%;
+                    padding:.3rem;
+                }
+                textarea{
+                    width:60%;
+                }
+                label{
+                    display:block;
+                    text-align:center;
+                }
+            }
+            .button{
+                display:flex;
+                justify-content: center;
+                .btn{
+                    background:orange;
+                    padding:1rem 0;
+                    width:40%;
+                }
+            }
         }
         .banner{
             font-size: 5rem;
-            margin: auto;
             line-height:5.8rem;
+            padding:1rem;
             @media @mobile{
                 text-align: center;
             }
@@ -64,31 +97,4 @@ header{
                 color:orange;
             }
         }
-.container{
-    width:100%;
-    border-radius:.2rem;
-    padding:20px;
-    display:flex;
-    margin-top: 4rem;
-    input[type=text], select, textarea{
-        width: 100%;
-        padding: 1.2rem;
-        border:.05rem solid orange;
-        border-radius:.4rem;
-        box-sizing: border-box;
-        resize: vertical;
-      }//end of input
-    label{
-        padding:.5rem;
-        display:inline-block;
-    }
-    .col-25 {
-        width: 125%;
-        margin-top: 6px;
-      }
-      .col-75 {
-        width: 175%;
-        margin-top: 6px;
-      }
-}//end of container
 }
