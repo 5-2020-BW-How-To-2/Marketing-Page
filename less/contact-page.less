@@ -1,6 +1,7 @@
 header{
     display:flex;
     justify-content:flex-start;
+    border-bottom:2px dashed @darkgray;
     @media @mobile{
         display:flex;
         flex-direction: column;
@@ -40,8 +41,47 @@ header{
         padding: 3rem;
         @media @mobile{
             font-size: 1.5rem;
-            text-align: left;
+            text-align: center;
             padding:1rem;
         }//end of nav a links media
     }//end of a links
 }//end of header
+.contact{
+        display:flex;
+        flex-direction:row;
+        .banner{
+            font-size: 5rem;
+            margin: auto;
+            line-height:5.8rem;
+            span{
+                color:orange;
+            }
+        }
+.container{
+    width:100%;
+    border-radius:.2rem;
+    padding:20px;
+    display:flex;
+    margin-top: 4rem;
+    input[type=text], select, textarea{
+        width: 100%;
+        padding: 1.2rem;
+        border:.05rem solid orange;
+        border-radius:.4rem;
+        box-sizing: border-box;
+        resize: vertical;
+      }//end of input
+    label{
+        padding:.5rem;
+        display:inline-block;
+    }
+    .col-25 {
+        width: 125%;
+        margin-top: 6px;
+      }
+      .col-75 {
+        width: 175%;
+        margin-top: 6px;
+      }
+}//end of container
+}

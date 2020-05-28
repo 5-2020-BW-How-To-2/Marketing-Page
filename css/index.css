@@ -592,9 +592,21 @@ header a {
     width: 100%;
   }
 }
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  font-size: 1.2rem;
+  background-color: orange;
+  border-top: 2px dashed #1b1b1b;
+}
+footer h6 {
+  background-color: orange;
+}
 header {
   display: flex;
   justify-content: flex-start;
+  border-bottom: 2px dashed #1b1b1b;
 }
 @media (max-width:500px) {
   header {
@@ -649,16 +661,46 @@ header a {
     padding: 1rem;
   }
 }
-footer {
+.contact {
   display: flex;
-  justify-content: center;
-  padding: 4rem;
-  font-size: 1.2rem;
-  background-color: orange;
-  border-top: 2px dashed #1b1b1b;
+  flex-direction: row;
 }
-footer h6 {
-  background-color: orange;
+.contact .banner {
+  font-size: 5rem;
+  margin: auto;
+  line-height: 5.8rem;
+}
+.contact .banner span {
+  color: orange;
+}
+.contact .container {
+  width: 100%;
+  border-radius: 0.2rem;
+  padding: 20px;
+  display: flex;
+  margin-top: 4rem;
+}
+.contact .container input[type=text],
+.contact .container select,
+.contact .container textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 0.05rem solid orange;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.contact .container label {
+  padding: 0.5rem;
+  display: inline-block;
+}
+.contact .container .col-25 {
+  width: 125%;
+  margin-top: 6px;
+}
+.contact .container .col-75 {
+  width: 175%;
+  margin-top: 6px;
 }
 @font-face {
   font-family: 'Roboto Slab';
