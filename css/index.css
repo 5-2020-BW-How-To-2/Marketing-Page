@@ -161,63 +161,6 @@ header {
 @media (max-width:500px) {
   header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-header h2 {
-  display: flex;
-}
-@media (max-width:500px) {
-  header h2 {
-    display: flex;
-    justify-content: center;
-  }
-}
-header h2 a {
-  background-color: orange;
-  color: white;
-  text-decoration: underline;
-  font-size: 4rem;
-}
-@media (max-width:500px) {
-  header h2 a {
-    background-color: white;
-    color: orange;
-    text-decoration: none;
-    text-align: center;
-  }
-}
-header nav {
-  margin: auto;
-}
-@media (max-width:500px) {
-  header nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-header a {
-  font-size: 1.8rem;
-  color: purple;
-  text-decoration: none;
-  padding: 3rem;
-}
-@media (max-width:500px) {
-  header a {
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-  }
-}
-header {
-  display: flex;
-  justify-content: flex-start;
-}
-@media (max-width:500px) {
-  header {
-    display: flex;
     justify-content: center;
     flex-direction: column;
   }
@@ -245,6 +188,11 @@ header h2 a {
     text-align: center;
   }
 }
+header h2 a:hover {
+  transition: 0.5s ease-in-out;
+  color: orange;
+  background-color: white;
+}
 header nav {
   margin: auto;
 }
@@ -267,6 +215,10 @@ header a {
     text-align: center;
     padding: 1rem;
   }
+}
+header a:hover {
+  transition: 0.2s ease-in-out;
+  color: #b846b8;
 }
 .team {
   display: flex;
@@ -534,6 +486,10 @@ header a {
     text-decoration: underline;
   }
 }
+.top-container .btn button a:hover {
+  text-decoration: underline;
+  color: #b846b8;
+}
 .bottom-container {
   display: flex;
   flex-direction: row;
@@ -608,63 +564,6 @@ header a {
     width: 100%;
   }
 }
-header {
-  display: flex;
-  justify-content: flex-start;
-}
-@media (max-width:500px) {
-  header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
-header h2 {
-  display: flex;
-}
-@media (max-width:500px) {
-  header h2 {
-    display: flex;
-    justify-content: center;
-  }
-}
-header h2 a {
-  background-color: orange;
-  color: white;
-  text-decoration: underline;
-  font-size: 4rem;
-}
-@media (max-width:500px) {
-  header h2 a {
-    background-color: white;
-    color: orange;
-    text-decoration: none;
-    text-align: center;
-  }
-}
-header nav {
-  margin: auto;
-}
-@media (max-width:500px) {
-  header nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
-header a {
-  font-size: 1.8rem;
-  color: purple;
-  text-decoration: none;
-  padding: 3rem;
-}
-@media (max-width:500px) {
-  header a {
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-  }
-}
 .contact {
   display: flex;
   flex-direction: row;
@@ -690,6 +589,13 @@ header a {
 }
 .contact .banner span {
   color: orange;
+}
+.contact .banner:hover {
+  transition: 0.1s ease-in-out;
+  color: orange;
+}
+.contact .banner:hover span {
+  color: #1b1b1b;
 }
 .contact .container {
   width: 100%;
