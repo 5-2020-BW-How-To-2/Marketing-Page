@@ -606,7 +606,6 @@ footer h6 {
 header {
   display: flex;
   justify-content: flex-start;
-  border-bottom: 2px dashed #1b1b1b;
 }
 @media (max-width:500px) {
   header {
