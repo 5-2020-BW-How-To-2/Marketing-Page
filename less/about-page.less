@@ -2,15 +2,13 @@ header{
     display:flex;
     justify-content:flex-start;
     @media @mobile{
-        display:flex;
+        .center;
         flex-direction: column;
-        justify-content: center;
     }//end of header media
     h2{
         display:flex;
         @media @mobile{
-            display:flex;
-            justify-content: center;
+            .center;
         }//end of h2 media
         a{
             background-color: orange;
@@ -28,9 +26,8 @@ header{
     nav{
         margin: auto;
         @media @mobile{
-            display:flex;
+            .center;
             flex-direction: column;
-            justify-content: center;
         }//end of nav media
     }//end of nav
     a{
@@ -80,32 +77,30 @@ header{
     img{
         border-radius: .2rem;
         margin:auto;
-    }
+    }//end of img
     .pl{
-        display:flex;
+        .center;
         flex-direction: row;
-        justify-content: center;
         margin-bottom: 2rem;;
         @media @mobile{
-            display:flex;
+            .center;
             flex-direction: column;
-            justify-content: center;
-        }
+        }//end of .pl mobile
         .patrick{
             width:50%;
             display:flex;
             flex-direction: column;
             text-align: center;
             @media @mobile{
-                width:100%;
-            }
+                .width;
+            }//end of .patrick
             img{
                 width:70%;
-            }
+            }//end of img
         }//end of .patrick
     }//end of pl
     .front{
-        width:100%;
+        .width;
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -113,53 +108,53 @@ header{
             display:flex;
             flex-direction:column;
             justify-content: center;
-        }
+        }//end of mobile
         .bobby{
             width:30%;
             display:flex;
             flex-direction: column;
             @media @mobile{
-                width:100%;
-                justify-content: center;
-            }
+                .width;
+                .center;
+            }//end of .bobby mobile
             img{
-                width:100%;
+                .width;
                 @media @mobile{
                     width:75%;
-                }
-            }
-        }
+                }//end of .bobby img mobile
+            }//end of .bobby img
+        }//end of .bobby
         .kate{
             width:30%;
             display:flex;
             flex-direction:column;
             @media @mobile{
-                width:100%;
-            }
+                .width;
+            }//end of mobile
             img{
-                width:100%;
+                .width;
                 @media @mobile{
                     width:75%;
-                }
-            }
-        }
+                }//end of img .kate
+            }//end of img .kate
+        }//end of .kate
         .liam{
             width:30%;
             display:flex;
             flex-direction:column;
             @media @mobile{
-                width:100%;
-            }
+                .width;
+            }//end of mobile
             img{
-                width:100%;
+                .width;
                 @media @mobile{
                     width:75%;
-                }
-            }
-        }
+                }//end of mobile
+            }//end of img
+        }//end of .liam
     }//end of .front
     .back{
-        width:100%;
+        .width;
         display:flex;
         flex-direction:row;
         justify-content: space-evenly;
@@ -168,51 +163,51 @@ header{
             display:flex;
             flex-direction: column;
             justify-content: center;
-        }
+        }//end of mobile
         .steven{
             width:30%;
             display:flex;
             flex-direction: column;
             @media @mobile{
-                width:100%;
-            }
+                .width;
+            }//end of mobile
             img{
-                width:100%;
+                .width;
                 margin:auto;
                 @media @mobile{
                     width:75%;
-                }
-            }
-        }
+                }//end of img media
+            }//end of .steven img
+        }//end .steven
         .chris{
             width:30%;
             display: flex;
             flex-direction:column;
             @media @mobile{
-                width:100%;
-            }
+                .width;
+            }//end of media 
             img{
                 width:90%;
                 margin:auto;
                 @media @mobile{
                     width:75%;
-                }
-            }
-        }
+                }//end of media
+            }//end of img
+        }//end of .chris
         .christian{
             width:30%;
             display:flex;
             flex-direction:column;
             @media @mobile{
-                width:100%;
-            }
+                .width;
+            }//end of media
             img{
-                width:100%;
+                .width;
                 margin: auto;
                 @media @mobile{
                     width:75%;
-                }
-            }
-        }
-    }
+                }//end of media
+            }//end of img
+        }//end of .christian
+    }//end of .back
 }//end of .team

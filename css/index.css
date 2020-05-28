@@ -1,3 +1,7 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -202,8 +206,8 @@ header {
 @media (max-width:500px) {
   header {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 header h2 {
@@ -235,8 +239,8 @@ header nav {
 @media (max-width:500px) {
   header nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 header a {
@@ -293,15 +297,15 @@ header a {
 }
 .team .pl {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: row;
   margin-bottom: 2rem;
 }
 @media (max-width:500px) {
   .team .pl {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 .team .pl .patrick {
@@ -598,8 +602,8 @@ header {
 @media (max-width:500px) {
   header {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 header h2 {
@@ -631,8 +635,8 @@ header nav {
 @media (max-width:500px) {
   header nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
 }
 header a {
@@ -651,51 +655,20 @@ header a {
 .contact {
   display: flex;
   flex-direction: row;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 @media (max-width:500px) {
   .contact {
     display: flex;
+    justify-content: center;
+    width: 100%;
     flex-direction: column;
   }
 }
-.contact .contact-form {
-  text-align: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 80%;
-}
-.contact .contact-form .text {
-  width: 100%;
-  margin: 0.5rem;
-}
-.contact .contact-form .text input {
-  width: 50%;
-  padding: 0.3rem;
-}
-.contact .contact-form .text textarea {
-  width: 60%;
-}
-.contact .contact-form .text label {
-  display: block;
-  text-align: center;
-}
-.contact .contact-form .button {
-  display: flex;
-  justify-content: center;
-}
-.contact .contact-form .button .btn {
-  background: orange;
-  padding: 1rem 0;
-  width: 40%;
-}
 .contact .banner {
   font-size: 5rem;
+  margin: auto;
   line-height: 5.8rem;
-  padding: 1rem;
 }
 @media (max-width:500px) {
   .contact .banner {
@@ -704,6 +677,47 @@ header a {
 }
 .contact .banner span {
   color: orange;
+}
+.contact .container {
+  width: 100%;
+  border-radius: 0.2rem;
+  padding: 20px;
+  display: flex;
+  margin-top: 4rem;
+}
+@media (max-width:500px) {
+  .contact .container {
+    width: 80%;
+  }
+}
+.contact .container input[type=text],
+.contact .container select,
+.contact .container textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 0.05rem solid orange;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  resize: vertical;
+}
+@media (max-width:500px) {
+  .contact .container input[type=text],
+  .contact .container select,
+  .contact .container textarea {
+    width: 110%;
+  }
+}
+.contact .container label {
+  padding: 0.5rem;
+  display: inline-block;
+}
+.contact .container .col-25 {
+  width: 125%;
+  margin-top: 6px;
+}
+.contact .container .col-75 {
+  width: 175%;
+  margin-top: 6px;
 }
 footer {
   display: flex;

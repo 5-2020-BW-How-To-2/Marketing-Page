@@ -2,15 +2,13 @@ header{
     display:flex;
     justify-content:flex-start;
     @media @mobile{
-        display:flex;
+        .center;
         flex-direction: column;
-        justify-content: center;
     }//end of header media
     h2{
         display:flex;
         @media @mobile{
-            display:flex;
-            justify-content: center;
+            .center;
         }//end of h2 media
         a{
             background-color:orange;
@@ -28,9 +26,8 @@ header{
     nav{
         margin: auto;
         @media @mobile{
-            display:flex;
+            .center;
             flex-direction: column;
-            justify-content: center;
         }//end of nav media
     }//end of nav
     a{
@@ -47,54 +44,55 @@ header{
 }//end of header
 .contact{
     display:flex;
-    flex-direction: row;
-    margin-top:6rem;
-    margin-bottom:6rem;
+        flex-direction:row;
+        margin-bottom:4rem;
         @media @mobile{
-            display:flex;
+            .center;
+            width:100%;
             flex-direction: column;
-        }//end of .contact mobile
-        .contact-form{
-            text-align: center;
-            box-sizing: border-box;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            width:80%;
-            .text{
-                width:100%;
-                margin:.5rem;
-                input{
-                    width:50%;
-                    padding:.3rem;
-                }
-                textarea{
-                    width:60%;
-                }
-                label{
-                    display:block;
-                    text-align:center;
-                }
-            }
-            .button{
-                display:flex;
-                justify-content: center;
-                .btn{
-                    background:orange;
-                    padding:1rem 0;
-                    width:40%;
-                }
-            }
-        }
+        }//end of .contact media
         .banner{
             font-size: 5rem;
+            margin: auto;
             line-height:5.8rem;
-            padding:1rem;
             @media @mobile{
                 text-align: center;
             }
             span{
                 color:orange;
-            }
-        }
-}
+            }//end of span
+        }//end of .banner
+.container{
+    width:100%;
+    border-radius:.2rem;
+    padding:20px;
+    display:flex;
+    margin-top: 4rem;
+    @media @mobile{
+        width:80%;
+    }//end of .container
+    input[type=text], select, textarea{
+        width: 100%;
+        padding: 1.2rem;
+        border:.05rem solid orange;
+        border-radius:.4rem;
+        box-sizing: border-box;
+        resize: vertical;
+        @media @mobile{
+            width:110%;
+        }//end of input media
+      }//end of input
+    label{
+        padding:.5rem;
+        display:inline-block;
+    }//end of label
+    .col-25 {
+        width: 125%;
+        margin-top: 6px;
+      }//end of .col-25
+      .col-75 {
+        width: 175%;
+        margin-top: 6px;
+      }//end of .col-25
+}//end of container
+}//end of .contact
