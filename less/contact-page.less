@@ -1,30 +1,30 @@
 .contact{
-        .flex;
-        flex-direction:row;
-        margin-bottom:4rem;
+    .flex;
+    flex-direction:row;
+    margin-bottom:4rem;
+    @media @mobile{
+        .center;
+        .width;
+        flex-direction: column;
+    }//end of .contact media
+    .banner{
+        font-size: 5rem;
+        margin: auto;
+        line-height:5.8rem;
         @media @mobile{
-            .center;
-            .width;
-            flex-direction: column;
-        }//end of .contact media
-        .banner{
-            font-size: 5rem;
-            margin: auto;
-            line-height:5.8rem;
-            @media @mobile{
-                .center-text;
-            }
+            .center-text;
+        }//end of .banner-media
+        span{
+            .orange;
+        }//end of span
+        &:hover{
+            transition:.1s ease-in-out;
+            .orange;
             span{
-                .orange;
-            }//end of span
-            &:hover{
-                transition:.1s ease-in-out;
-                .orange;
-                span{
-                    color:@darkgray;
-                }//end of hover span
-            }//end of hover
-        }//end of .banner
+                color:@darkgray;
+            }//end of hover span
+        }//end of hover
+    }//end of .banner
 .container{
     .width;
     border-radius:.2rem;
@@ -33,7 +33,7 @@
     margin-top: 4rem;
     @media @mobile{
         width:80%;
-    }//end of .container
+    }//end of .container-media
     input[type=text], select, textarea{
         .width;
         padding: 1.2rem;
