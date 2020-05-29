@@ -535,7 +535,7 @@ header a:hover {
 .bottom-container .drill img {
   width: 100%;
   margin-bottom: 1.5rem;
-  height: 18rem;
+  height: 16rem;
 }
 @media (max-width:500px) {
   .bottom-container .drill img {
@@ -554,7 +554,7 @@ header a:hover {
 .bottom-container .cooking img {
   width: 100%;
   margin-bottom: 1.5rem;
-  height: 18rem;
+  height: 16rem;
 }
 @media (max-width:500px) {
   .bottom-container .cooking img {
@@ -573,7 +573,7 @@ header a:hover {
 .bottom-container .clean img {
   width: 100%;
   margin-bottom: 1.5rem;
-  height: 18rem;
+  height: 16rem;
 }
 @media (max-width:500px) {
   .bottom-container .clean img {
