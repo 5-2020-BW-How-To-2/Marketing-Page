@@ -14,6 +14,9 @@
 .bgorange {
   background-color: orange;
 }
+.gray {
+  background-color: #1b1b1b;
+}
 .center-text {
   text-align: center;
 }
@@ -446,6 +449,7 @@ header a:hover {
 }
 @media (max-width:500px) {
   .top-container h1 {
+    text-align: center;
     font-size: 4rem;
   }
 }
