@@ -14,9 +14,6 @@
 .center-text {
   text-align: center;
 }
-.font {
-  font-size: 1.2rem;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -322,10 +319,6 @@ header a:hover {
     width: 75%;
   }
 }
-.team .front .bobby a {
-  text-align: center;
-  font-size: 1.2rem;
-}
 .team .front .kate {
   width: 30%;
   display: flex;
@@ -344,10 +337,6 @@ header a:hover {
     width: 75%;
   }
 }
-.team .front .kate a {
-  text-align: center;
-  font-size: 1.2rem;
-}
 .team .front .liam {
   width: 30%;
   display: flex;
@@ -365,10 +354,6 @@ header a:hover {
   .team .front .liam img {
     width: 75%;
   }
-}
-.team .front .liam a {
-  text-align: center;
-  font-size: 1.2rem;
 }
 .team .back {
   width: 100%;
@@ -445,10 +430,13 @@ header a:hover {
   width: 100%;
 }
 .top-container h1 {
+  width: 25%;
   display: flex;
   justify-content: center;
-  font-size: 6rem;
+  margin: auto;
+  font-size: 5rem;
   padding: 2rem;
+  text-decoration: underline orange;
 }
 @media (max-width:500px) {
   .top-container h1 {
@@ -456,16 +444,18 @@ header a:hover {
   }
 }
 .top-container p {
-  line-height: 1.5;
-  font-size: 1.6rem;
+  line-height: 1.7;
+  font-size: 1.5rem;
   text-align: center;
-  text-transform: lowercase;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 @media (max-width:500px) {
   .top-container p {
     font-size: 1.4rem;
   }
+}
+.top-container p span {
+  color: orange;
 }
 .top-container .btn {
   display: flex;
