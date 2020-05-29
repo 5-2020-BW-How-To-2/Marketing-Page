@@ -12,25 +12,25 @@ header{
             .center;
         }//end of h2 media
         a{
-            background-color: orange;
+            .bgorange;
             color:white;
             text-decoration:underline;
             font-size:4rem;
             @media @mobile{
+                .orange;
                 background-color: white;
-                color:orange;
                 text-decoration: none;
                 .center-text;
             }//end of a links media
             &:hover{
-                transition:0.5s ease-in-out;
                 .orange;
+                transition:0.5s ease-in-out;
                 background-color:white;
             }
         }//end of H2-a links
     }//end of H2
     nav{
-        margin: auto;
+        .margin;
         @media @mobile{
             .center;
             flex-direction: column;
@@ -42,8 +42,8 @@ header{
         text-decoration: none;
         padding: 3rem;
         @media @mobile{
-            font-size: 1.5rem;
             .center-text;
+            font-size: 1.5rem;
             padding:1rem;
         }//end of nav a links media
         &:hover{
