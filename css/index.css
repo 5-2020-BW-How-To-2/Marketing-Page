@@ -666,7 +666,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 4rem;
+  padding: 2rem;
   font-size: 1.2rem;
   background-color: orange;
   border-top: 3px dashed #1b1b1b;
