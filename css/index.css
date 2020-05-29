@@ -537,8 +537,10 @@ header a:hover {
     width: 100%;
   }
 }
-.bottom-container .cooking img {
+.bottom-container .cooking {
   width: 31%;
+}
+.bottom-container .cooking img {
   width: 100%;
   margin-bottom: 1.5rem;
   height: 18rem;
