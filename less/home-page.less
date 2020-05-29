@@ -1,0 +1,127 @@
+.top-container{
+    .img1{
+        .width;
+    }//end of img1
+    h1{
+        .center;
+        .margin;
+        width:80%;
+        font-size:5rem;
+        padding:2rem;
+        text-decoration:underline orange;
+        span{
+            color:orange;
+        }
+        @media @mobile{
+            .center-text;
+            .margin;
+            font-size: 4rem;
+        }//end of h1 media
+    }//end of h1
+    p{
+        .center-text;
+        line-height:1.7;
+        font-size: 1.5rem;
+        margin-bottom:2rem;
+        @media @mobile{
+            line-height:1.5rem;
+            font-size: 1.4rem;
+        }//end of p media
+        span{
+            .orange;
+        }//end of span
+    }//end of p
+    .btn{
+        .center;
+        button{
+            .bgorange;
+            border-radius:5px;
+            width:20%;
+            padding:5px;
+            margin-bottom:4rem;
+            @media @mobile{
+                border-radius: 2px;
+                width:40%;
+                padding:3%;
+                background-color:white;
+                box-shadow: 3px 3px 3px @darkgray
+            }//end of button media
+            a{
+                .bgorange;
+                color:purple;
+                font-size:1.2rem;
+                text-decoration: none;
+                @media @mobile{
+                    .orange;
+                    font-size:1.4rem;
+                    background-color:white;
+                    text-decoration: underline;
+                }//end of a links media
+                &:hover{
+                    text-decoration: underline;
+                    color:rgb(184, 70, 184);  
+                }//end of button hover
+            }//end of button a links
+        }//end of btn-button
+    }//end of btn
+}//end of .top-container
+.bottom-container{
+    .flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom:1.5rem;
+    @media @mobile{
+        .center;
+        flex-direction: column;
+    }//end of .bottom-container media
+    p{
+        .center-text;
+        line-height: 1.5;
+    }//end of p
+    .drill{
+        img{
+            .width;
+            margin-bottom: 1.5rem;
+            height:16rem;
+            @media @mobile{
+                width:75%;
+                margin:1rem 3.5rem;
+
+            }//end of drill-img media
+        }//end of drill-img
+        width:31%;
+        @media @mobile{
+            .width;
+        }//end of drill media
+    }//end of drill
+    .cooking{
+        img{
+            .width;
+            margin-bottom:1.5rem;
+            height:16rem;
+            @media @mobile{
+                width:75%;
+                margin: 1rem 3.5rem;
+            }//end of cooking img media
+        }//end of cooking-img
+        width:31%;
+        @media @mobile{
+            .width;
+        }//end of cooking media
+    }//end of cooking
+    .clean{
+        img{
+            .width;
+            margin-bottom:1.5rem;
+            height:16rem;
+            @media @mobile{
+                width:75%;
+                margin:1rem 3.5rem;
+            }//end of .clean img media
+        }//end of .clean-img
+        width:31%;
+        @media @mobile{
+            .width;
+        }//end of .clean media
+    }//end of .clean
+}//end of .bottom-container

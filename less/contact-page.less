@@ -1,0 +1,62 @@
+.contact{
+    .flex;
+    flex-direction:row;
+    margin-bottom:4rem;
+    @media @mobile{
+        .center;
+        .width;
+        flex-direction: column;
+    }//end of .contact media
+    .banner{
+        .margin;
+        font-size: 5rem;
+        line-height:5.8rem;
+        @media @mobile{
+            .center-text;
+        }//end of .banner-media
+        span{
+            .orange;
+        }//end of span
+        &:hover{
+            .orange;
+            transition:.1s ease-in-out;
+            span{
+                color:@darkgray;
+            }//end of hover span
+        }//end of hover
+    }//end of .banner
+.container{
+    .flex;
+    .width;
+    border-radius:.2rem;
+    padding:20px;
+    margin-top: 4rem;
+    @media @mobile{
+        width:50%;
+    }//end of .container-media
+    input[type=text], select, textarea{
+        .width;
+        padding: 1.2rem;
+        border:.05rem solid orange;
+        border-radius:.4rem;
+        box-sizing: border-box;
+        resize: vertical;
+        @media @mobile{
+            .center;
+            width:100%;
+        }//end of input media
+      }//end of input
+    label{
+        padding:.5rem;
+        display:inline-block;
+    }//end of label
+    .col-25 {
+        width: 125%;
+        margin-top: 6px;
+      }//end of .col-25
+      .col-75 {
+        width: 175%;
+        margin-top: 6px;
+      }//end of .col-25
+}//end of container
+}//end of .contact

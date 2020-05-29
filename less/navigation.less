@@ -1,0 +1,55 @@
+header{
+    .flex;
+    justify-content:flex-start;
+    border-bottom:3px dashed @darkgray;
+    @media @mobile{
+        .center;
+        flex-direction: column;
+    }//end of header media
+    h2{
+        .flex;
+        @media @mobile{
+            .center;
+        }//end of h2 media
+        a{
+            .bgorange;
+            color:white;
+            text-decoration:underline @darkgray;
+            font-size:3rem;
+            @media @mobile{
+                .orange;
+                background-color: white;
+                text-decoration: none;
+                .center-text;
+            }//end of a links media
+            &:hover{
+                .orange;
+                transition:0.5s ease-in-out;
+                background-color:white;
+                text-decoration:underline @darkgray;
+            }//end of hover
+        }//end of H2-a links
+    }//end of H2
+    nav{
+        .margin;
+        @media @mobile{
+            .center;
+            flex-direction: column;
+        }//end of nav media
+    }//end of nav
+    a{
+        font-size: 1.8rem;
+        color:purple;
+        text-decoration: none;
+        padding: 3rem;
+        @media @mobile{
+            .center-text;
+            font-size: 1.5rem;
+            padding:1rem;
+        }//end of nav a links media
+        &:hover{
+            transition:.2s ease-in-out;
+            color:rgb(184, 70, 184);
+        }
+    }//end of a links
+}//end of header

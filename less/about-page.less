@@ -1,0 +1,168 @@
+.team{
+    .flex;
+    flex-direction: column;
+    h1{
+        .orange;
+        .center-text;
+        font-size:3rem;
+        padding:5rem;
+        @media @mobile{
+            .center-text;
+            font-size: 2rem;
+        }
+    }//end of h1
+    h2{
+        .center-text;
+        color:@darkgray;
+        font-size:1.8rem;
+        padding:.5rem;
+    }//end of h2
+    h3{
+        .center-text;
+        .orange;
+        font-size:1.4rem;
+        padding:.5rem;
+    }//end of h3
+    p{
+        .center-text;
+        .margin;
+        line-height:1.5rem;
+        color:rgb(100, 100, 100);
+        font-size: 1.2rem;
+        padding:.5rem;
+    }//end of p
+    img{
+        .margin;
+        border-radius: .2rem;
+    }//end of img
+    .pl{
+        .center;
+        flex-direction: row;
+        margin-bottom: 2rem;
+        @media @mobile{
+            .center;
+            flex-direction: column;
+        }//end of .pl mobile
+        .patrick{
+            .flex;
+            .center-text;
+            width:50%;
+            flex-direction: column;
+            @media @mobile{
+                .width;
+            }//end of .patrick
+            img{
+                width:70%;
+            }//end of img
+        }//end of .patrick
+    }//end of pl
+    .front{
+        .width;
+        .flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        @media @mobile{
+            .center;
+            flex-direction:column;
+        }//end of mobile
+        .bobby{
+            .flex;
+            width:30%;
+            flex-direction: column;
+            @media @mobile{
+                .width;
+                .center;
+            }//end of .bobby mobile
+            img{
+                .width;
+                @media @mobile{
+                    width:75%;
+                }//end of .bobby img mobile
+            }//end of .bobby img
+        }//end of .bobby
+        .kate{
+            .flex;
+            width:30%;
+            flex-direction:column;
+            @media @mobile{
+                .width;
+            }//end of mobile
+            img{
+                .width;
+                @media @mobile{
+                    width:75%;
+                }//end of img .kate
+            }//end of img .kate
+        }//end of .kate
+        .liam{
+            .flex;
+            width:30%;
+            flex-direction:column;
+            @media @mobile{
+                .width;
+            }//end of mobile
+            img{
+                .width;
+                @media @mobile{
+                    width:75%;
+                }//end of mobile
+            }//end of img
+        }//end of .liam
+    }//end of .front
+    .back{
+        .width;
+        .flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+        @media @mobile{
+            .center;
+            flex-direction: column;
+        }//end of mobile
+        .steven{
+            .flex;
+            width:30%;
+            flex-direction: column;
+            @media @mobile{
+                .width;
+            }//end of mobile
+            img{
+                .width;
+                .margin;
+                @media @mobile{
+                    width:75%;
+                }//end of img media
+            }//end of .steven img
+        }//end .steven
+        .chris{
+            .flex;
+            width:30%;
+            flex-direction:column;
+            @media @mobile{
+                .width;
+            }//end of media 
+            img{
+                .margin;
+                width:90%;
+                @media @mobile{
+                    width:75%;
+                }//end of media
+            }//end of img
+        }//end of .chris
+        .christian{
+            .flex;
+            width:30%;
+            flex-direction:column;
+            @media @mobile{
+                .width;
+            }//end of media
+            img{
+                .width;
+                .margin;
+                @media @mobile{
+                    width:75%;
+                }//end of media
+            }//end of img
+        }//end of .christian
+    }//end of .back
+}//end of .team
