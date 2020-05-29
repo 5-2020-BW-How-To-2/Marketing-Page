@@ -186,8 +186,8 @@ header h2 {
 header h2 a {
   background-color: orange;
   color: white;
-  text-decoration: underline;
-  font-size: 4rem;
+  text-decoration: underline #1b1b1b;
+  font-size: 3rem;
 }
 @media (max-width:500px) {
   header h2 a {
@@ -201,6 +201,7 @@ header h2 a:hover {
   color: orange;
   transition: 0.5s ease-in-out;
   background-color: white;
+  text-decoration: underline #1b1b1b;
 }
 header nav {
   margin: auto;
@@ -440,16 +441,21 @@ header a:hover {
   width: 100%;
 }
 .top-container h1 {
-  width: 100%;
+  display: flex;
+  justify-content: center;
   margin: auto;
-  width: 25%;
+  width: 80%;
   font-size: 5rem;
   padding: 2rem;
   text-decoration: underline orange;
 }
+.top-container h1 span {
+  color: orange;
+}
 @media (max-width:500px) {
   .top-container h1 {
     text-align: center;
+    margin: auto;
     font-size: 4rem;
   }
 }
@@ -461,6 +467,7 @@ header a:hover {
 }
 @media (max-width:500px) {
   .top-container p {
+    line-height: 1.5rem;
     font-size: 1.4rem;
   }
 }
@@ -621,7 +628,7 @@ header a:hover {
 }
 @media (max-width:500px) {
   .contact .container {
-    width: 80%;
+    width: 50%;
   }
 }
 .contact .container input[type=text],
@@ -638,7 +645,9 @@ header a:hover {
   .contact .container input[type=text],
   .contact .container select,
   .contact .container textarea {
-    width: 110%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 .contact .container label {

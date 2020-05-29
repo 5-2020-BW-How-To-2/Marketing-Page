@@ -14,8 +14,8 @@ header{
         a{
             .bgorange;
             color:white;
-            text-decoration:underline;
-            font-size:4rem;
+            text-decoration:underline @darkgray;
+            font-size:3rem;
             @media @mobile{
                 .orange;
                 background-color: white;
@@ -26,7 +26,8 @@ header{
                 .orange;
                 transition:0.5s ease-in-out;
                 background-color:white;
-            }
+                text-decoration:underline @darkgray;
+            }//end of hover
         }//end of H2-a links
     }//end of H2
     nav{
